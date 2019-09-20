@@ -8,7 +8,7 @@ var respecConfig = {
   //publishDate:           "2013-08-22",
   diffTool: "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
 
-  // the specifications short name, as in http://www.w3.org/TR/short-name/
+  // the specifications short name, as in https://www.w3.org/TR/short-name/
   shortName: "css-aam-1.0",
 
   // if you wish the publication date to be other than today, set this
@@ -20,11 +20,11 @@ var respecConfig = {
   // and its maturity status
   //previousPublishDate:  "2014-03-20",
   //previousMaturity:     "REC",
-  //prevRecURI:           "http://www.w3.org/TR/2014/REC-wai-aria-implementation-20140320/",
-  //previousDiffURI:      "http://www.w3.org/TR/2014/REC-wai-aria-implementation-20140320/",
+  //prevRecURI:           "https://www.w3.org/TR/2014/REC-wai-aria-implementation-20140320/",
+  //previousDiffURI:      "https://www.w3.org/TR/2014/REC-wai-aria-implementation-20140320/",
 
   // if there a publicly available Editors Draft, this is the link
-  edDraftURI: "http://w3c.github.io/css-aam/",
+  edDraftURI: "https://w3c.github.io/css-aam/",
 
   // if this is a LCWD, uncomment and set the end of its review period
   // lcEnd: "2012-02-21",
@@ -78,35 +78,35 @@ var respecConfig = {
   // This is important for Rec-track documents, do not copy a patent URI from a random
   // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
   // Team Contact.
-  wgPatentURI: ["http://www.w3.org/2004/01/pp-impl/83726/status", "https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/32061/status"],
+  wgPatentURI: ["https://www.w3.org/2004/01/pp-impl/83726/status", "https://www.w3.org/2004/01/pp-impl/83907/status", "https://www.w3.org/2004/01/pp-impl/32061/status"],
 
   tocIntroductory: true,
   //maxTocLevel: 4,
 
   ariaSpecURLs: {
     "ED": "https://w3c.github.io/aria/aria/aria.html",
-    "FPWD": "http://www.w3.org/TR/wai-aria-1.1/",
-    "WD": "http://www.w3.org/TR/wai-aria-1.1/",
-    "REC": "http://www.w3.org/TR/wai-aria/"
+    "FPWD": "https://www.w3.org/TR/wai-aria-1.1/",
+    "WD": "https://www.w3.org/TR/wai-aria-1.1/",
+    "REC": "https://www.w3.org/TR/wai-aria/"
   },
   accNameURLs: {
-    "ED": "http://w3c.github.io/aria/accname-aam/accname-aam.html",
-    "WD": "http://www.w3.org/TR/accname-aam-1.1/",
-    "FPWD": "http://www.w3.org/TR/accname-aam-1.1/",
-    "REC": "http://www.w3.org/TR/accname-aam/"
+    "ED": "https://w3c.github.io/aria/accname-aam/accname-aam.html",
+    "WD": "https://www.w3.org/TR/accname-aam-1.1/",
+    "FPWD": "https://www.w3.org/TR/accname-aam-1.1/",
+    "REC": "https://www.w3.org/TR/accname-aam/"
   },
 
   coreMappingURLs: {
-    "ED": "http://w3c.github.io/aria/core-aam/core-aam.html",
-    "WD": "http://www.w3.org/TR/core-aam-1.1/",
-    "FPWD": "http://www.w3.org/TR/core-aam-1.1/",
-    "REC": "http://www.w3.org/TR/wai-aria-implementation/"
+    "ED": "https://w3c.github.io/aria/core-aam/core-aam.html",
+    "WD": "https://www.w3.org/TR/core-aam-1.1/",
+    "FPWD": "https://www.w3.org/TR/core-aam-1.1/",
+    "REC": "https://www.w3.org/TR/wai-aria-implementation/"
   },
   dpubModURLs: {
-    "ED": "http://w3c.github.io/aria/aria/dpub.html",
-    "FPWD": "http://www.w3.org/TR/dpub-aria-1.0/",
-    "WD": "http://www.w3.org/TR/dpub-aria-1.0/",
-    "REC": "http://www.w3.org/TR/dpub-aria/"
+    "ED": "https://w3c.github.io/aria/aria/dpub.html",
+    "FPWD": "https://www.w3.org/TR/dpub-aria-1.0/",
+    "WD": "https://www.w3.org/TR/dpub-aria-1.0/",
+    "REC": "https://www.w3.org/TR/dpub-aria/"
   },
 
   localBiblio: biblio,
