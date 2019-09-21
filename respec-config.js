@@ -45,7 +45,8 @@ var respecConfig = {
     },
     {
       name: "Zoë Bijl",
-      company: "Invited Expert"
+      company: "Invited Expert",
+      w3cid: 74040
     },
   ],
   // authors, add as many as you like.
