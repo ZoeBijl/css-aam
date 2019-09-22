@@ -28,7 +28,7 @@
 
 			// map where keys are @id of associated mapping table:
 			viewByLabels: {
-				"role-mapping-table": "View by roles",
+				"property-mapping-table": "View by property",
 				"state-property-mapping-table": "View by state/property",
 				"event-mapping-table": "View by state/property"
 			}
@@ -37,6 +37,48 @@
 </head>
 
 <body>
+
+	<section>
+		<h2>CSS properties test table</h2>
+		<div class="table-container">
+			<table class="map-table elements" id="property-mapping-table">
+				<caption>Table describing mapping of <abbr title="Cascading Style Sheets">CSS</abbr> properties to accessibility <abbr title="application programming interfaces">APIs</abbr>.</caption>
+				<thead>
+					<tr>
+						<th><abbr title="Cascading Style Sheets">CSS</abbr> Properties</th>
+						<th>MSAA + IAccessible2 Role + Other IAccessible2 Features</th>
+						<th><abbr title="User Interface Automation">UIA</abbr> Control Type + Other Features</th>
+						<th><abbr title="Accessibility Toolkit">ATK</abbr>/<abbr title="Assistive Technology - Service Provider Interface">AT-SPI</abbr> Role</th>
+						<th><abbr title="Mac OS X Accessibility Protocol">AXAPI</abbr></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="css-property-map-test">
+						<th><code>text-transform</code></th>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr id="css-property-map-test2">
+						<th><code>font-style</code></th>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr id="css-property-map-test3">
+						<th><code>font-weight</code></th>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
 	<section id="abstract">
 		<p>
 			The CSS Accessibility API Mappings (CSS-AAM) defines how <a class="termref">user agents</a> map the Cascading Stylesheets [[!css-2015]] features to platform <a class="termref">accessibility <abbr title="Application Programming Interfaces">APIs</abbr></a>.
